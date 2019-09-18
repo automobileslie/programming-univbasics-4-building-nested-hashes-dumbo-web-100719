@@ -12,7 +12,13 @@ def monopoly_with_second_tier
 end
 
 def monopoly_with_third_tier
-  this_hash = {:railroads => {:pieces => 4, :rent_in_dollars => {:first_digit => 1, :second_digit => 2, :third_digit => 5, :fourth_digit => 2}, :names => "them"} }
+  this_hash = {
+    :railroads => 
+    {:pieces => 4, 
+    :rent_in_dollars => {:first_digit => 1, :second_digit => 2, :third_digit => 5, :fourth_digit => 2}, 
+    :names => "them"} 
+    
+  }
   
   
   # When you start writing the implementation for this method, copy the Hash
