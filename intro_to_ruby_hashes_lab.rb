@@ -1,5 +1,5 @@
 def base_hash
-	this_hash = {"key" => "something" }
+	this_hash = {"railroads" => "something" }
 end
 
 def monopoly_with_second_tier
