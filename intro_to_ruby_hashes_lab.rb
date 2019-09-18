@@ -1,5 +1,5 @@
 def base_hash
-	this_hash = {:railroads => {:pieces} }
+	this_hash = {:railroads => {:pieces => "something"} }
 end
 
 def monopoly_with_second_tier
