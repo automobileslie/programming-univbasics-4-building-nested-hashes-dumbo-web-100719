@@ -16,7 +16,9 @@ def monopoly_with_third_tier
     :railroads => 
     {:pieces => 4, 
     :rent_in_dollars => {:first_digit => 1, :second_digit => 2, :third_digit => 5, :fourth_digit => 2}, 
-    :names => "them"} 
+    :names => {:first_name => "James", :second_name => "Shari", :third_name => "Shirley", :fourth_name => "Mona" }
+      
+    } 
     
   }
   
