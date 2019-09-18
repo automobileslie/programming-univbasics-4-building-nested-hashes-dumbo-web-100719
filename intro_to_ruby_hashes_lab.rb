@@ -3,7 +3,7 @@ def base_hash
 end
 
 def monopoly_with_second_tier
-  this_hash = {:railroads => {:pieces => 4, :rent_in_dollars => "4"} }
+  this_hash = {:railroads => {:pieces => 4} }
   
   # When you start writing the implementation for this method, copy the Hash
   # you built in the previous method. Run the tests. They will fail, but
@@ -12,7 +12,7 @@ def monopoly_with_second_tier
 end
 
 def monopoly_with_third_tier
-  this_hash = {:railroads => {:pieces => 4} }
+  this_hash = {:railroads => {:pieces => 4, :rent_in_dollars => "something outrageous"} }
   
   
   # When you start writing the implementation for this method, copy the Hash
